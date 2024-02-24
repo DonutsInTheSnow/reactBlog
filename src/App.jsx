@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './App.css'
 import { Outlet } from 'react-router-dom'
 import { useDispatch } from "react-redux";
 import { login, logout } from "./store/authSlice";
